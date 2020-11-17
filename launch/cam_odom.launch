@@ -1,0 +1,3 @@
+<launch>
+    <node name="cam_odom_node" pkg="vins" type="vins_node" args="$(find vins)/../config/eco/mono_odom.yaml" />
+</launch>
